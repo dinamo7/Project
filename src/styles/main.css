@@ -1,27 +1,24 @@
 .head {
-  background: #4f5374;
+  background: #2a3a59;
   height: 100px;
   width: auto;
 }
 .name {
-  color: #ffffff;
+  color: #c5c4b6;
   font-family: Arial, inherit;
-  font-size: 40px;
+  font-size: 35px;
 }
 .p-first {
-  color: #ffffff;
+  color: #c5c4b6;
   font-family: Arial, inherit;
   font-size: 15px;
-}
-.pull-right {
-  margin-top: 30px;
 }
 .menu {
   margin: 0;
   padding: 0;
   list-style: none;
   font-size: 0;
-  color: #ffffff;
+  color: #c5c4b6;
 }
 .menu-item {
   display: inline-block;
@@ -32,25 +29,25 @@
   text-decoration: none;
   font-family: Arial, inherit;
   display: inline-block;
-  color: #ffffff;
+  color: #c5c4b6;
   padding: 3px 15px;
 }
 .menu-link:hover {
   text-decoration: none;
   color: #ffffff;
-  background: #F9B73A;
+  border-bottom: 2px solid #e50019;
   border-radius: 2px;
 }
 .menu-link:active {
   text-decoration: none;
   color: #ffffff;
-  background: #F9B73A;
+  border-bottom: 2px solid #e50019;
   border-radius: 2px;
 }
 .menu-link:focus {
   text-decoration: none;
   color: #ffffff;
-  background: #F9B73A;
+  border-bottom: 2px solid #e50019;
   border-radius: 2px;
 }
 .menu:after {
@@ -60,14 +57,21 @@
   height: 0;
   font-size: 0;
 }
+.margin-top {
+  margin-top: 30px;
+}
 .bg-foto {
   background-image: url("../../foto/pic2.JPG");
   height: 350px;
-  width: 100%;
+}
+.foto-text {
+  color: #c5c4b6;
+  margin-top: 70px;
+  font-size: 25px;
 }
 .box {
   display: block;
-  background: #e4e4e4;
+  background: #c5c4b6;
   height: 290px;
   width: 250px;
   box-shadow: 4px 1px 5px #000;
@@ -80,12 +84,12 @@
   text-align: center;
 }
 .phone {
-  color: rgba(95, 96, 96, 0.79);
+  color: #645f69;
   text-align: center;
   font-size: 20px;
 }
 .phone2 {
-  color: rgba(95, 96, 96, 0.79);
+  color: #645f69;
   padding-left: 35px;
   font-size: 20px;
 }
@@ -110,22 +114,28 @@
   margin-top: 50px;
 }
 .header {
-  color: #dddddd;
+  color: #645f69;
   text-align: center;
   font-size: 30px;
 }
 .address {
   color: #383838;
   font-size: 20px;
+  margin-top: 30px;
 }
 .h2-address {
-  color: #ead13c;
+  color: #e50019;
 }
 .footer {
   height: 50px;
-  background: linear-gradient(to top, #4f5374, #686674);
+  background: #2a3a59;
   border-radius: 5px;
   text-align: center;
-  color: #cccccc;
+  color: #c5c4b6;
   margin-top: 50px;
+}
+@media all {
+  .foto-text {
+    display: none;
+  }
 }
