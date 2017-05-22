@@ -2,7 +2,7 @@
 
 .head {
   background: #2a3a59;
-  height: 100px;
+height: 100px;
   width: auto;
 }
 
@@ -13,10 +13,31 @@
 }
 
 .p-first {
-  color: #c5c4b6;
+  color: #98978a;
   font-family: @font;
   font-size: 15px;
+
 }
+
+
+.navbar-default {
+  background-color: #2a3a59;
+  border-color: #2a3a59;
+}
+
+
+.menu-item {
+   margin-left: 50px;
+}
+.navbar-brand {
+  float: left;
+  height: 85px;
+  padding: 0;
+  font-size: 30px;
+  padding-top: 20px;
+  color: #c5c4b6!important;
+}
+
 
 .menu {
   margin: 0;
@@ -26,19 +47,31 @@
   color: #c5c4b6;
 }
 
+.togglle {
+  display: none;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #c5c4b6;
+  letter-spacing: 2px;
+  position: absolute;
+  right: 1em;
+  transform: rotate(90deg);
+}
+
+
 .menu-item {
   display: inline-block;
   font-size: 18px;
-  padding-left: 40px;
+
 }
 
 .menu-link {
   text-decoration: none;
   font-family: @font;
   display: inline-block;
-  color: #c5c4b6;
-  padding: 3px 15px;
-
+  color: #c5c4b6 !important;
+  padding: 3px 15px
 }
 
 .menu-link:hover {
@@ -80,7 +113,7 @@
 }
 
 .foto-text {
-  color: #c5c4b6;
+  color: #ffffff;
   margin-top: 70px;
   font-size: 25px;
 }
@@ -99,18 +132,20 @@
 .h2 {
   color: #5e5e5e;
   text-align: center;
+  padding-top: 10px;
 }
 
 .phone {
   color: #645f69;
   text-align: center;
   font-size: 20px;
+  margin-top: 20px;
 }
 
 .phone2 {
   color: #645f69;
-  padding-left: 35px;
-  font-size: 20px;
+  padding-left:  3px;
+  font-size: 21px;
 }
 
 .viber{
@@ -127,7 +162,7 @@
 
 .img-facebook{
   height: 50px;
-  width: 50px;
+  width: 130px;
 }
 
 .img-facebook:hover {
@@ -136,6 +171,16 @@
 
 .gallery {
   margin-top: 50px;
+}
+
+.pic4 {
+  height: 200px!important;
+  width: auto!important;
+}
+
+.pic6 {
+  height: 200px!important;
+  width: 100%!important;
 }
 
 .header {
@@ -154,6 +199,12 @@
   color: #e50019;
 }
 
+.margin-top-map {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+
 .footer{
   height: 50px;
   background: #2a3a59;
@@ -163,8 +214,33 @@
   margin-top: 50px;
 }
 
-@media all{
- .foto-text{
-   display: none;
- }
+.last {
+
+  padding-top: 15px;
+}
+
+@media screen and (max-width: 991px) {
+
+  .foto-text{
+    display: none;
+  }
+
+
+   .head {
+     height: auto;
+     text-align: center;
+   }
+
+  .logo {
+    border-bottom: 1px solid #c5c4b6;
+  }
+
+  .menu-item {
+    display: block;
+    line-height: 2;
+  }
+
+  .margin-top-map {
+    display: none;
+  }
 }
