@@ -28,6 +28,9 @@
   padding-top: 20px;
   color: #c5c4b6!important;
 }
+.logo-strong {
+  padding-right: 75px;
+}
 .menu {
   margin: 0;
   padding: 0;
@@ -161,6 +164,20 @@
 .h2-address {
   color: #e50019;
 }
+.coordinates {
+  font-size: 20px;
+  margin-top: 30px;
+  display: none;
+}
+.coordinates-link {
+  text-decoration: none;
+  color: #767676;
+}
+.coordinates-link:hover {
+  text-decoration: none;
+  color: #4b4b4b;
+  text-shadow: 1px 1px 1px #000;
+}
 .margin-top-map {
   margin-top: 50px;
   margin-left: 50px;
@@ -190,6 +207,9 @@
   .menu-item {
     display: block;
     line-height: 2;
+  }
+  .coordinates {
+    display: block;
   }
   .margin-top-map {
     display: none;
