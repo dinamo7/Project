@@ -88,6 +88,9 @@
 .margin-top {
   margin-top: 30px;
 }
+.margin {
+  margin-top: 15px;
+}
 .bg-foto {
   background-image: url("../../foto/pic2.JPG");
   height: 350px;
@@ -108,7 +111,7 @@
   margin-top: -20px;
 }
 .h2 {
-  color: #5e5e5e;
+  color: #e50019;
   text-align: center;
   padding-top: 10px;
 }
@@ -122,6 +125,9 @@
   color: #645f69;
   padding-left: 3px;
   font-size: 21px;
+}
+.br {
+  padding-top: 30px;
 }
 .viber {
   height: 60px;
@@ -182,6 +188,9 @@
   margin-top: 50px;
   margin-left: 50px;
 }
+.navbar-default .navbar-toggle {
+  border-color: #2a3a59;
+}
 .footer {
   height: 50px;
   background: #2a3a59;
@@ -199,7 +208,6 @@
   }
   .head {
     height: auto;
-    text-align: center;
   }
   .logo {
     border-bottom: 1px solid #c5c4b6;
@@ -207,6 +215,7 @@
   .menu-item {
     display: block;
     line-height: 2;
+    margin-left: 0;
   }
   .coordinates {
     display: block;
