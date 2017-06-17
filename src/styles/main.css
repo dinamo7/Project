@@ -1,5 +1,5 @@
 .font-family {
-  font-family: "DejaVu Sans Condensed";
+  font-family: Play;
 }
 .name {
   color: #c5c4b6;
@@ -10,6 +10,7 @@
   color: #eeedfb;
   font-family: Arial;
   font-size: 15px;
+  padding-top: 5px;
 }
 .navbar-default {
   background-color: #142144;
