@@ -1,7 +1,7 @@
 @font: Arial;
 
 .font-family {
-  font-family: Play;
+  //font-family: Anton;
 }
 
 
@@ -74,8 +74,12 @@ padding-left: 20px;
 .menu-item {
   display: inline-block;
   font-size: 18px;
-
 }
+
+.navbar-nav {
+  padding-top: 15px;
+}
+
 
 .menu-link {
   text-decoration: none;
@@ -248,16 +252,19 @@ padding-left: 20px;
 .footer{
   height: 50px;
   background: #142144;
-  border-radius: 5px;
   text-align: center;
   color: #c5c4b6;
   padding-top: 15px;
 }
 
 .last {
-
   padding-top: 15px;
 }
+
+.display {
+  display: none;
+}
+
 
 @media screen and (max-width: 768px) {
 
@@ -266,6 +273,11 @@ padding-left: 20px;
   }
 
 
+
+.display {
+  display: block;
+  margin-top: 50px;
+}
 
   .logo {
     border-bottom: 1px solid #c5c4b6;
