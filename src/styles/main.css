@@ -147,7 +147,9 @@
   width: 130px;
 }
 .img-facebook:hover {
-  box-shadow: 4px 4px 4px #000;
+  box-shadow: 4px 4px 4px #333333;
+  opacity: 0.8;
+  transition: 0.5s;
 }
 .gallery {
   margin-top: 50px;
