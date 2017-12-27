@@ -1,3 +1,5 @@
+
+
 .name {
   color: #c5c4b6;
   font-family: Arial;
@@ -132,6 +134,21 @@
 .br {
   padding-top: 30px;
 }
+
+.christmas {
+  margin: 20px 0 20px 0;
+  text-align: justify;
+}
+
+.christmas p {
+ font-size: 14px;
+}
+
+.border-for-map {
+  border: 1px solid #ccc !important;
+  border-radius: 5px;
+}
+
 .viber {
   height: 60px;
   width: 60px;
@@ -170,7 +187,7 @@
 .address {
   color: #383838;
   font-size: 20px;
-  margin-top: 30px;
+  margin: 30px 0;
 }
 .h2-address {
   color: #142144;
@@ -190,8 +207,8 @@
   text-shadow: 1px 1px 1px #000;
 }
 .margin-top-map {
-  margin-top: 50px;
-  margin-left: 50px;
+  margin: 50px 0;
+
 }
 .navbar-default .navbar-toggle {
   border-color: #142144;
@@ -209,7 +226,14 @@
 .display {
   display: none;
 }
+
+
 @media screen and (max-width: 768px) {
+
+  .text-center-mini {
+    text-align: center;
+  }
+
   .foto-text {
     display: none;
   }
@@ -236,3 +260,5 @@
     display: none;
   }
 }
+
+
